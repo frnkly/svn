@@ -8,7 +8,7 @@ Run `svn add <filename>` to put files/directories under version control.
 
 Run `svn diff` to see modifications.
 
-Run `svn commit -m "Message"` to commit the new version of your file to the repository.
+Run `svn commit -m "<message>"` to commit the new version of your file to the repository.
 
 Differences with Git
 ===
@@ -16,7 +16,7 @@ Run `svn update` to bring your working copy “up to date” with the repository
 
 Branching
 ---
-Run `svn copy ^/trunk ^/branches/test -m "Message"`
+Run `svn copy ^/trunk ^/branches/<branch> -m "<message>"`
 
 References
 ===
