@@ -14,6 +14,10 @@ Differences with Git
 ===
 Run `svn update` to bring your working copy “up to date” with the repository.
 
+Branching
+---
+Run `svn copy ^/trunk ^/branches/test -m "Message"`
+
 References
 ===
 - [SVN Tutorial](http://svnbook.red-bean.com/en/1.6/svn.intro.quickstart.html)
